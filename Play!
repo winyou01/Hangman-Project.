@@ -1,0 +1,77 @@
+import turtle
+ 
+ 
+count = 0
+Kendrick_turtle = turtle.Turtle()
+t = turtle.Turtle()
+Kendrick_turtle.speed(30)
+def draw (count):
+  if (count == 0):
+    Kendrick_turtle.forward(260)
+    Kendrick_turtle.right(90)
+  elif (count == 1):
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(130)
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(520)
+  elif (count == 2):
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(160)
+  elif (count == 3):
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(125)
+  elif (count == 4):
+   Kendrick_turtle.right(270)
+   Kendrick_turtle.circle(26)    
+
+for count in range (5):
+ 
+  name = input ("Guess the word or letter. Write your guesses here!")
+  Answer = 'we'
+  # print Answer
+
+  if (name == Answer):
+    print ("Correct!")
+  else:
+    # print count
+
+    draw (count)
+    print ("Ouch! wrong haha you will never get it correct. (JK).") 
+
+
+
+
+
+# Square
+# Kendrick_turtle = turtle.Turtle()
+# Kendrick_turtle.speed(30)
+# def square() :
+# Kendrick_turtle.forward(45)
+# Kendrick_turtle.right(90)
+# Kendrick_turtle.forward(100)
+# Kendrick_turtle.right(90)
+# Kendrick_turtle.forward(100)
+# Kendrick_turtle.right(90)
+# Kendrick_turtle.forward(100)
+
+ #square()
+# Kendrick_turtle.forward(200)
+# square()]
+def draw(number):
+  
+  if (number == 0):
+    Kendrick_turtle.forward(260)
+    Kendrick_turtle.right(90)
+  elif (number == 1):
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(130)
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(520)
+  elif (number==2):
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(160)
+  elif (number==3):
+    Kendrick_turtle = turtle.Turtle()
+    Kendrick_turtle.speed(30)
+    Kendrick_turtle.right(90)
+    Kendrick_turtle.forward(125)
